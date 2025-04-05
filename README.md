@@ -6,7 +6,7 @@ This repository documents the installation, configuration, and management of my 
 ## Table of Contents
 - [Installation Guide](./Installation-guide.md)
 - [Configuration Guide](./configuration-guide.md)
-- [Network Diagram](./docs/network-diagram.md)
+- [Network Diagram](./network-diagram.md)
 
 ## Quick Start
 1. **Download and Install pfSense:** Follow the steps in [Installation Guide](./docs/installation-guide.md).
