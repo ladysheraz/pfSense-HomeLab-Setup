@@ -21,13 +21,13 @@ The network is divided into three primary segments:
 ## Configuration Steps
 
 ### 1. Accessing the pfSense Dashboard
-- **Initial Access:** The default IP was `https://192.168.--.--` (pre-configuration).
+- **Initial Access:** The default IP was `https://192.168.1.1` (pre-configuration).
 - **Current Access:** After reconfiguring the LAN interface, access via `https://192.168.--.--`.
 
 ### 2. Configuring the LAN Interface
 - **Assigned IP:** `192.168.--.-` with a `/24` subnet mask.
 - **DHCP Configuration:**
-  - **DHCP Range:** Configured to start at `192.168.100.56` to avoid conflicts with static IPs.
+  - **DHCP Range:** Configured to start at `192.168.--.--` to avoid conflicts with static IPs.
   - **Static Reservations:** Existing devices like the Windows 10 and Kali Linux systems have fixed IPs.
 
 ### 3. Configuring the DMZ (OPT1) Interface
