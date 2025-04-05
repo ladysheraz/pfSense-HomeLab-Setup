@@ -5,7 +5,7 @@ This repository documents the installation, configuration, and management of my 
 
 ## Table of Contents
 - [Installation Guide](./Installation-guide.md)
-- [Configuration Guide](./docs/configuration-guide.md)
+- [Configuration Guide](./configuration-guide.md)
 - [Network Diagram](./docs/network-diagram.md)
 
 ## Quick Start
