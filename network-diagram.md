@@ -9,7 +9,7 @@ The network is divided into three main segments:
   - **Gateway:** `<YOUR_LAN_IP>` (e.g., `192.168.200.2`)
 - **DMZ (OPT1):** Isolated for public-facing services.
   - **Subnet:** `<YOUR_DMZ_SUBNET>` (e.g., `192.168.28.1/24`)
-  - **Gateway:** `<YOUR_DMZ_IP>` (e.g., `192.168.28.256`)
+  - **Gateway:** `<YOUR_DMZ_IP>` (e.g., `192.168.28.254`)
 
 ## Diagram
 Below is the network diagram created using [draw.io](https://app.diagrams.net/):
