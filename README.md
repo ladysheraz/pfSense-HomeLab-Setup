@@ -4,7 +4,7 @@
 This repository documents the installation, configuration, and management of my pfSense firewall as part of my SOC homelab. It covers downloading and installing pfSense, setting up WAN, LAN, and DMZ (OPT1) interfaces, configuring DHCP, firewall/NAT rules, and more—all while obfuscating non-default information.
 
 ## Table of Contents
-- [Installation Guide](./docs/installation-guide.md)
+- [Installation Guide](/installation-guide.md)
 - [Configuration Guide](./docs/configuration-guide.md)
 - [Network Diagram](./docs/network-diagram.md)
 
