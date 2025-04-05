@@ -14,7 +14,7 @@ The network is divided into three main segments:
 ## Diagram
 Below is the network diagram created using [draw.io](https://app.diagrams.net/):
 
-![Network Diagram](../screenshots/NetworkDiagram.jpeg)
+![Network Diagram](./screenshots/NetworkDiagram.jpeg)
 
 ## Explanation
 - **WAN:** Provides Internet connectivity.
