@@ -8,12 +8,12 @@ The network is divided into three primary segments:
 
 - **WAN:** Connects to the Internet.
 - **LAN:** Internal network used by trusted devices.
-  - **Subnet:** `192.168.100.0/24`
-  - **Gateway (pfSense LAN IP):** `192.168.100.1`
-  - **Example Devices:** Windows 10 (`192.168.100.54`), Kali Linux (`192.168.100.55`)
+  - **Subnet:** `192.168.--.--/24`
+  - **Gateway (pfSense LAN IP):** `192.168.--.--`
+  - **Example Devices:** Windows 10 (`192.168.---.--`), Kali Linux (`192.168.---.--`)
 - **DMZ (OPT1):** Isolated subnet for public-facing services.
-  - **Subnet:** `192.168.2.0/24`
-  - **Gateway (pfSense DMZ IP):** `192.168.2.1`
+  - **Subnet:** `192.168.--.-/24`
+  - **Gateway (pfSense DMZ IP):** `192.168.--.--`
 
 ### Network Diagram
 ![Network Diagram](./screenshots/network-diagram.png)
@@ -21,19 +21,19 @@ The network is divided into three primary segments:
 ## Configuration Steps
 
 ### 1. Accessing the pfSense Dashboard
-- **Initial Access:** The default IP was `https://192.168.1.1` (pre-configuration).
-- **Current Access:** After reconfiguring the LAN interface, access via `https://192.168.100.1`.
+- **Initial Access:** The default IP was `https://192.168.--.--` (pre-configuration).
+- **Current Access:** After reconfiguring the LAN interface, access via `https://192.168.--.--`.
 
 ### 2. Configuring the LAN Interface
-- **Assigned IP:** `192.168.100.1` with a `/24` subnet mask.
+- **Assigned IP:** `192.168.--.-` with a `/24` subnet mask.
 - **DHCP Configuration:**
   - **DHCP Range:** Configured to start at `192.168.100.56` to avoid conflicts with static IPs.
   - **Static Reservations:** Existing devices like the Windows 10 and Kali Linux systems have fixed IPs.
 
 ### 3. Configuring the DMZ (OPT1) Interface
-- **Assigned IP:** `192.168.2.1` with a `/24` subnet mask.
+- **Assigned IP:** `192.168.--.-` with a `/24` subnet mask.
 - **Purpose:** To isolate public-facing services from the internal LAN.
-- **DHCP Settings:** (Optional) Can be configured with a range such as `192.168.2.10` to `192.168.2.254` if required.
+- **DHCP Settings:** (Optional) Can be configured with a range such as `192.168.--.--` to `192.168.--.--` if required.
 
 ### 4. Firewall & NAT Rules
 - **Firewall Rules:** Implemented rules to control and restrict traffic between WAN, LAN, and DMZ.
@@ -49,7 +49,7 @@ The network is divided into three primary segments:
 - **DMZ (OPT1) Configuration Screen:** ![DMZ Config](./screenshots/dmz-config.png)
 
 ## Challenges & Resolutions
-- **IP Conflicts:** Resolved by changing the default LAN IP from `192.168.1.1` to `192.168.100.1` and adjusting the DHCP range.
+- **IP Conflicts:** Resolved by changing the default LAN IP from `192.168.1.1` to `192.168.--.--` and adjusting the DHCP range.
 - **Certificate Warnings:** Managed by learning how to safely bypass self-signed certificate warnings in browsers.
 - **Firewall Rules Tuning:** Iterative testing was required to ensure proper traffic segregation among LAN, DMZ, and WAN.
 
