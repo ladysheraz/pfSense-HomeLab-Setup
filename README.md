@@ -9,9 +9,9 @@ This repository documents the installation, configuration, and management of my 
 - [Network Diagram](./network-diagram.md)
 
 ## Quick Start
-1. **Download and Install pfSense:** Follow the steps in [Installation Guide](./docs/installation-guide.md).
-2. **Configure Interfaces:** Detailed steps in [Configuration Guide](./docs/configuration-guide.md).
-3. **Review Network Architecture:** See [Network Diagram](./docs/network-diagram.md) for an overview.
+1. **Download and Install pfSense:** Follow the steps in [Installation Guide](./Installation-guide.md).
+2. **Configure Interfaces:** Detailed steps in [Configuration Guide](./configuration-guide.md).
+3. **Review Network Architecture:** See [Network Diagram](./network-diagram.md) for an overview.
 4. **Screenshots:** Visual references are available in the [screenshots](./screenshots/) folder.
 5. **Configurations:** Exported and sanitized configuration files are stored in the [config](./config/) folder.
 
