@@ -20,4 +20,4 @@ This guide explains how to download and install pfSense on your hardware or as a
 
 4. **Initial Setup:**
    - After installation, use the pfSense console to perform the initial configuration.
-   - Note: The default IP is typically `https://<DEFAULT_PFSENSE_IP>`. For security reasons, this will be changed in later steps.
+   - Note: The default IP is typically `https://192.168.1.1`. For security reasons, this will be changed in later steps.
