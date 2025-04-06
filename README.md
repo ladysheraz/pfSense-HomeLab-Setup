@@ -13,7 +13,6 @@ This repository documents the installation, configuration, and management of my 
 2. **Configure Interfaces:** Detailed steps in [Configuration Guide](./configuration-guide.md).
 3. **Review Network Architecture:** See [Network Diagram](./network-diagram.md) for an overview.
 4. **Screenshots:** Visual references are available in the [screenshots](./screenshots/) folder.
-5. **Configurations:** Exported and sanitized configuration files are stored in the [config](./config/) folder.
 
 ## License
 This project is licensed under the MIT License.
